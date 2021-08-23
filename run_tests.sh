@@ -1,5 +1,5 @@
 source activate  # ensure tests are done in virtualenv
-export ENV=development  # force to development for local testing
+export ENV=dev  # force to development for local testing
 
 test_args=""  # init var
 markers=""    # init var

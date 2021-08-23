@@ -1,4 +1,4 @@
 source activate
-export ENV=development
+export ENV=dev
 
 uvicorn src:api --reload
