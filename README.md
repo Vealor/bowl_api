@@ -2,7 +2,7 @@
 
 ___
 ## Initial setup
-Have python 3.8.5+ installed and active as base `python3`
+Have python 3.8.5+ installed and active as base `python3` and run:  
 ```
 ./init.sh
 ```
@@ -24,13 +24,13 @@ It has further capabilities to give output on linting, code coverage reports, an
 To prevent this, use the command `nodb` at the end of `./run_tests.sh`.  It is good to run the tests with a fresh DB, but it can slow down test development time if you are doing it each time.
 **eg** => `./run_tests.sh nodb` -->
 
-- In order to further speed up test development time, you can limit the output to be one or a set of modules:
+- In order to further speed up test development time, you can limit the output to be one or a set of modules:  
 **eg** => `./run_tests.sh bowl` will run the test suite for bowl endpoints.
 
-- Add the following to the end of `./run_tests.sh` to get further output:
-`cov` => code coverage
-`lint` => linting with flake8
-`full` => more verbose output for tests
+- Add the following to the end of `./run_tests.sh` to get further output:  
+`cov` => code coverage  
+`lint` => linting with flake8  
+`full` => more verbose output for tests  
 
 An example running all is: `./run_tests.sh cov lint full`
 
