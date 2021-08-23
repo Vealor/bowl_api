@@ -26,4 +26,4 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint and Test
       run: |
-        ./run_tests.sh lint cov
+        py.test -vv --cov --flake8 --cache-clear --color=yes -W ignore::PendingDeprecationWarning
