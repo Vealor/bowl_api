@@ -2,7 +2,7 @@
 
 ___
 ## Initial setup
-Have python 3.8.5+ installed and active as base `python3` and run:  
+Have python 3.8.5+ installed and active as base `python3` and pip must be installed for python 3 as `pip3` then run:  
 ```
 ./init.sh
 ```
